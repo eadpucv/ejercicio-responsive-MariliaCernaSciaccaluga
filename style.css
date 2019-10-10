@@ -1,17 +1,64 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+/**rojo**/
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
+  padding: 15px;
 }
+
+/**verde**/
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
 }
+ul{
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+ 
+li{
+  display:inline-flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 6px;
+  margin:0;
+  border: 1.5px dashed rgb(163, 184, 133);
+}
+ /**Amarillo**/
 .site-main {
   background: #ffc;
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 10px;
+  margin-top: 20px;
 }
 .hentry {
   border: 2px dashed black;
   margin: 1rem;
   padding: 1rem;
 }
+
+.articles{
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.main-section {
+  margin-top: 3rem;
+  display:inline-flex;
+  flex-direction: row;
+}
+
+.main-section__title{
+  margin-left: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/**morado**/
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
+ padding: 15px;
 }
